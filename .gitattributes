@@ -1,0 +1,4 @@
+# Keep Unix line endings so scripts run inside the Linux container
+*.sh  text eol=lf
+*.sql text eol=lf
+*.yml text eol=lf
