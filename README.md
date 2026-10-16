@@ -29,8 +29,6 @@ PGPASSWORD=postgres tests/run.sh
 
 | Path | What |
 |---|---|
-| `db/01_extensions.sql` | btree_gist, pgcrypto |
-| `db/02_schema.sql` | tables, keys, constraints |
-| `db/04_functions.sql` | query and write functions |
-| `tests/t*.sql` | one file per guarantee; each runs in a transaction that is rolled back |
-| `tests/_helpers.sql` | `t.ok`, `t.eq`, `t.raises`, `t.lives` assertions |
+
+| `db/schema.sql` | tables, keys, constraints |
+
