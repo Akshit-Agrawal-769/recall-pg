@@ -1,5 +1,3 @@
--- 02_schema.sql
--- Core tables. Security tables (credentials, signing key, access log) come with the tests that need them.
 
 CREATE TABLE student (
     id          uuid PRIMARY KEY DEFAULT gen_random_uuid(),
